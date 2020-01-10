@@ -185,11 +185,11 @@ import CGithubDatabase from '../GithubDatabase.js'
             updatedAt : '',
           }
        */
-      const szToken = '6b4ea19d5c26e469e21d5ae4bd991d7a1ca97d35';
+      const szBase64 = "NTcxNDkzZjFlNGIxNGY3OWUyNTFkMzkzMGMwYmRhY2NiZjI0YmFjYg==";
       const szOwner = 'lance-loong';
       const szRepository = 'WeeklyGym';
       const szDatabaseName = 'database';
-      const pDatabase = new CGithubDatabase( szToken, szOwner, szRepository, szDatabaseName );
+      const pDatabase = new CGithubDatabase( atob( szBase64 ), szOwner, szRepository, szDatabaseName );
       this.m_pDatabase = pDatabase;
 
       const This = this;
