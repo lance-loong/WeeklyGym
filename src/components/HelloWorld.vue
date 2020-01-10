@@ -198,6 +198,8 @@ import CGithubDatabase from '../GithubDatabase.js'
       }, function( errors ){
         This.DialogError( errors );
       } ).then( function( data ){
+        if( data == undefined )
+          return;
         for( var i = 0; i < data.length; ++i )
           This.tableData.push( data[i] );
       }, function( errors ){
