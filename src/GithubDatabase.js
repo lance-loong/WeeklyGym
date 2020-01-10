@@ -242,4 +242,20 @@ export default CGithubDatabase;
  * const szRepository = 'WeeklyGym';
  * const szDatabaseName = 'database';
  * const pDatabase = new CGithubDatabase( szToken, szOwner, szRepository, szDatabaseName );
-*/
+ * //pDatabase.PushExecute( "AddData", {name:"loong"}, function( bSuccess, pData )
+ * //{
+ * //  console.log( pData );
+ * //} );
+ * //pDatabase.PushExecute( "DelData", "MDU6SXNzdWU1Mzg5NTgxNTQ=", function( bSuccess, pData )
+ * //{
+ * //  console.log( pData );
+ * //} );
+ * //pDatabase.PushExecute( "UpdData", "MDU6SXNzdWU1Mzg5NTgxMDE=", {name:"loong"}, function( bSuccess, pData )
+ * //{
+ * //  console.log( pData );
+ * //} );
+ * //pDatabase.PushExecute( "GetAllData", function( aryData )
+ * //{
+ * //  console.log( aryData );
+ * //} );
+ */
