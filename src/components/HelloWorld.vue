@@ -185,7 +185,7 @@ import CGithubDatabase from '../GithubDatabase.js'
             updatedAt : '',
           }
        */
-      const szToken = '093db1900b1f076c47733fbf000c44749162c04f';
+      const szToken = '6b4ea19d5c26e469e21d5ae4bd991d7a1ca97d35';
       const szOwner = 'lance-loong';
       const szRepository = 'WeeklyGym';
       const szDatabaseName = 'database';
